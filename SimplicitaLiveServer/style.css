@@ -1,0 +1,92 @@
+/* contenedor === container
+cards === countries
+card === card */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 78.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: #555;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.contenedor {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.cards {
+  
+  display: flex;
+
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  width: 30rem;
+  border-radius: 0.7rem;
+  margin: 0 3rem;
+  
+} */
+
+.contenedor{
+  max-width: 1000px;
+  width: 90%;
+  margin:auto;
+  /* border: 10px solid #000; */
+  
+  
+}
+
+.cards{
+  display: grid;
+  justify-items: start;
+  grid-template-columns: repeat(3,150px);
+  column-gap: 200px;
+  row-gap: 100px;
+}
+
+.card{
+  padding: 20px;
+  background:;
+  box-shadow: 0 4px 20px rgba(194,194,194.25);
+  border-radius: 40px;
+  width: 260px;
+  height: 273px;
+  display: grid;
+}
+
+img{
+    width: 50%;
+    height: 75%;
+}
+
+button{
+  margin-left: 40px;
+  text-align: center;
+  border: none;
+  background: none;
+  padding:0; 
+  cursor:pointer;
+}
+
